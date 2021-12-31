@@ -1,0 +1,50 @@
+
+.navigation{
+    position: fixed;
+    width: 90px;
+    height: 100%;
+    background:#fff;
+    transition: 0.5s;  
+}
+
+.navigation ul{
+    position: absolute;
+     top: 150px;
+     left: 0;
+     width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navigation ul li a{
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #828B94;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.navigation ul li a .icon img{
+    width: 18px;
+}
+
+.navigation ul li a .title{
+    position: relative;
+    font-size: 15px;
+    font-weight: 700;
+}
